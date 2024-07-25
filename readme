@@ -1,0 +1,10 @@
+The process of detecting NASDAQ stock price prediction by generating datasets from Generative Adversarial Nets requires higher computational capabilities. We have Jupyter Lab, a free to use public cloud platform based on Jupyter Notebooks for training, validation, and testing. GAN utilizes NVIDIA GPU for training, hence the system needs to install GPU version of TensorFlow or Pytorch. deep learning models. Here are the recommended hardware requirements:
+CPU
+•	Type: Multi-core processor, preferably with high clock speeds.
+•	Recommended: Intel Core i5, i7 or i9, AMD Ryzen 7 or 9, or equivalent.
+GPU
+•	Type: High-end CUDA-compatible GPU.
+•	Recommended: NVIDIA RTX 30 series (e.g., RTX 3090, RTX 3080) or NVIDIA A100 for more extensive tasks.
+RAM
+•	Minimum: 8 GB
+•	Recommended: 16 GB or more
