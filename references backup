@@ -1,0 +1,111 @@
+Dissertation
+
+Chapter 4
+
+Results
+Autoencoder
+Hinton, G. E., & Salakhutdinov, R. R. (2006). "Reducing the Dimensionality of Data with Neural Networks." Science, 313(5786), 504-507. doi:10.1126/science.1127647. This study demonstrates how autoencoders can effectively reduce the dimensionality of data, outperforming traditional methods like PCA.
+
+Zong, B., Song, Q., & Wang, H. (2018). "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection." International Conference on Learning Representations (ICLR). This research highlights the use of autoencoders for unsupervised anomaly detection, showing that they can effectively identify deviations from normal patterns.
+
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., ... & Bengio, Y. (2014). "Generative Adversarial Nets." Advances in Neural Information Processing Systems, 2672-2680.
+
+Radford, A., Metz, L., & Chintala, S. (2015). "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks." arXiv preprint arXiv:1511.06434.
+
+Foundational Papers on GANs
+
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., ... & Bengio, Y. (2014). "Generative Adversarial Nets." Advances in Neural Information Processing Systems, 2672-2680.
+
+This seminal paper introduces the concept of GANs, explaining the fundamental architecture and the roles of the generator and discriminator.
+Paper Link
+Radford, A., Metz, L., & Chintala, S. (2015). "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks." arXiv preprint arXiv:1511.06434.
+
+This paper discusses DCGANs (Deep Convolutional GANs), which apply convolutional networks in the GAN architecture to improve image generation.
+Paper Link
+Advanced Techniques and Improvements
+
+Salimans, T., Goodfellow, I., Zaremba, W., Cheung, V., Radford, A., & Chen, X. (2016). "Improved Techniques for Training GANs." Advances in Neural Information Processing Systems, 2234-2242.
+
+This paper covers various techniques to stabilize GAN training and improve the quality of generated samples, such as feature matching and mini-batch discrimination.
+Paper Link
+Arjovsky, M., Chintala, S., & Bottou, L. (2017). "Wasserstein GAN." arXiv preprint arXiv:1701.07875.
+
+Introduces the Wasserstein GAN, which uses the Wasserstein distance to provide more stable training and better convergence properties.
+Paper Link
+
+
+Real-valued (Medical) Time Series Generation with Recurrent Conditional GANs, Cristóbal Esteban, Stephanie L. Hyland, Gunnar Rätsch, 2016
+
+MAD-GAN: Multivariate Anomaly Detection for Time Series Data with Generative Adversarial Networks, Dan Li, Dacheng Chen, Jonathan Goh, and See-Kiong Ng, 2019
+
+Zhang, Yongshan, et al. "Management Analysis Method of Multivariate Time Series Anomaly Detection in Financial Risk Assessment." JOEUC vol.36, no.1 2024: pp.1-19. http://doi.org/10.4018/JOEUC.342094
+
+https://www.researchgate.net/publication/339417739_Using_Improved_Conditional_Generative_Adversarial_Networks_to_Detect_Social_Bots_on_Twitter
+
+http://dx.doi.org/10.1109/ACCESS.2020.2975630 - Bin Wu, Le Liu GAN for social media
+
+Reference: Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., & Bengio, Y. (2014). "Generative Adversarial Nets". Advances in Neural Information Processing Systems 27 (NIPS 2014). 
+
+
+PCA vs TSNE
+Hajian G, Etemad A, Morin E. An Investigation of Dimensionality Reduction Techniques for EMG-based Force Estimation. Annu Int Conf IEEE Eng Med Biol Soc. 2019 Jul;2019:698-701. doi: 10.1109/EMBC.2019.8856293. PMID: 31945993.
+https://ieeexplore.ieee.org/document/8856293
+
+Chapter 3 references
+
+https://proceedings.neurips.cc/paper_files/paper/2019/file/c9efe5f26cd17ba6216bbe2a7d26d490-Paper.pdf
+
+GAN architecture - 
+
+Yadav, Parul & Gaur, Manish & Fatima, Nishat & Sarwar, Saqib. (2023). Qualitative and Quantitative Evaluation of Multivariate Time-Series Synthetic Data Generated Using MTS-TGAN: A Novel Approach. Applied Sciences. 13. 4136. 10.3390/app13074136. 
+
+Li, Jun & Liu, Yongbao & Li, Qijie. (2022). Generative Adversarial Network and Transfer Learning Based Fault Detection for Rotating Machinery with Imbalance Data Condition. Measurement Science and Technology. 33. 10.1088/1361-6501/ac3945. 
+
+NIPS 2016 Tutorial: Generative Adversarial Networks Ian Goodfellow (https://arxiv.org/pdf/1701.00160)
+
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A. and Bengio, Y., 2020. Generative adversarial networks. Communications of the ACM, 63(11), pp.139-144. (https://dl.acm.org/doi/pdf/10.1145/3422622)
+
+Synthetic data - Raghunathan, T.E., 2021. Synthetic data. Annual review of statistics and its application, 8(1), pp.129-140 https://www.annualreviews.org/docserver/fulltext/statistics/8/1/annurev-statistics-040720-031848.pdf?expires=1723399305&id=id&accname=guest&checksum=38017E33C894C9C20C21845593EF5066
+
+Nikolenko, S.I., 2021. Synthetic data for deep learning (Vol. 174). Springer Nature.
+
+Jordon, J., Szpruch, L., Houssiau, F., Bottarelli, M., Cherubin, G., Maple, C., Cohen, S.N. and Weller, A., 2022. Synthetic Data--what, why and how?. arXiv preprint arXiv:2205.03257 (https://arxiv.org/pdf/2205.03257)
+
+Karras, T., Laine, S. and Aila, T., (2019). A Style-Based Generator Architecture for Generative Adversarial Networks. NVIDIA. Available at: https://arxiv.org/abs/1812.04948
+
+Architecture and parameter set up (relevant)
+Park, N., Mohammadi, M., Gorde, K., Jajodia, S., Park, H. and Kim, Y., 2018. Data synthesis based on generative adversarial networks. arXiv preprint arXiv:1806.03384. https://arxiv.org/pdf/1806.03384
+
+Article Source: Generative adversarial networks for generating synthetic features for Wi-Fi signal quality
+Castelli M, Manzoni L, Espindola T, Popovič A, De Lorenzo A (2021) Generative adversarial networks for generating synthetic features for Wi-Fi signal quality. PLOS ONE 16(11): e0260308. https://doi.org/10.1371/journal.pone.0260308 reference for image 1
+
+Ghosh B, Dutta IK, Totaro M, Bayoumi M. A Survey on the Progression and Performance of Generative Adversarial Networks. In: 2020 11th International Conference on Computing, Communication and Net- working Technologies (ICCCNT). IEEE; 2020. p. 1–8. reference for image 1
+
+
+
+https://arxiv.org/abs/1907.00503  Xu, L., Skoularidou, M., Cuesta-Infante, A. and Veeramachaneni, K., (2019). Modeling Tabular Data Using Conditional GAN. arXiv.
+
+Jiang, Y., Chang, S. and Wang, Z., 2021. Transgan: Two transformers can make one strong gan. arXiv preprint arXiv:2102.07074, 1(3). - Vanilla GAN https://www.researchgate.net/profile/Zhangyang-Wang/publication/349335050_TransGAN_Two_Transformers_Can_Make_One_Strong_GAN/links/602e9f6e92851c4ed5803747/TransGAN-Two-Transformers-Can-Make-One-Strong-GAN.pdf
+
+Durgadevi, M., 2021, July. Generative Adversarial Network (GAN): A general review on different variants of GAN and applications. In 2021 6th International Conference on Communication and Electronics Systems (ICCES) (pp. 1-8). IEEE. - Vanilla https://ieeexplore.ieee.org/abstract/document/9489160
+
+Wasserstein - Adler, J. and Lunz, S., 2018. Banach wasserstein gan. Advances in neural information processing systems, 31, https://proceedings.neurips.cc/paper_files/paper/2018/file/91d0dbfd38d950cb716c4dd26c5da08a-Paper.pdf
+
+TimeGAN architecture -  
+
+oon, J.; Jarrett, D.; Van der Schaar, M. Time-series generative adversarial networks. Advances in Neural Information Processing Systems 32. In Proceedings of the 33rd Conference on Neural Information Processing Systems (NeurIPS 2019), Vancouver, BC, Canada, 8–14 December 2019. (https://proceedings.neurips.cc/paper_files/paper/2019/file/c9efe5f26cd17ba6216bbe2a7d26d490-Paper.pdf)
+
+Brophy, E.; Wang, Z.; She, Q.; Ward, T. Generative adversarial networks in time series: A survey and taxonomy. arXiv 2021,
+
+arXiv:2107.11098.   https://arxiv.org/abs/2107.11098
+
+
+
+Chung, J.; Gulcehre, C.; Cho, K.; Bengio, Y. Empirical evaluation of gated recurrent neural networks on sequence modeling. arXiv 2014, arXiv:1412.3555.  https://arxiv.org/abs/1412.3555
+
+Dannels, S., 2023. Creating Disasters: Recession Forecasting with GAN-generated Synthetic Time Series Data. University of Iowa, Department of Statistics and Actuarial Science (use of RNN). https://ar5iv.labs.arxiv.org/html/2302.10490
+
+Training datasets - Jeon, J., Kim, J., Song, H., Cho, S. and Park, N., 2022. GT-GAN: General purpose time series synthesis with generative adversarial networks. Advances in Neural Information Processing Systems, 35, pp.36999-37010. https://proceedings.neurips.cc/paper_files/paper/2022/file/f03ce573aa8bce26f77b76f1cb9ee979-Paper-Conference.pdf
+
+Zhang, Y., Xue, Y. and Neri, F., 2024, June. Multi-Optimiser Training for GANs Based on Evolutionary Computation. In 2024 IEEE Congress on Evolutionary Computation (CEC) (pp. 1-8). IEEE  https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10612002
+
